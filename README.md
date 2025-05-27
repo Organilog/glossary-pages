@@ -55,15 +55,6 @@ A customizable, multilingual-ready glossary plugin with A–Z navigation, catego
 
 ---
 
-## 📈 SEO & Marketing Tips
-
-This plugin improves your site SEO with structured glossary pages and semantic markup.  
-Also helps your internal linking strategy for long-tail keywords.
-
-If you’re interested in business tools or SaaS for field operations, check out [Organilog’s solutions](https://fr.organilog.com/).
-
----
-
 ## 📜 License
 
 GPL v2 or later – [See full license](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -72,8 +63,7 @@ GPL v2 or later – [See full license](https://www.gnu.org/licenses/gpl-2.0.html
 
 ## 🤝 Contributions
 
-Pull requests and issues welcome!  
-If you find a bug or want to suggest a feature, feel free to open an [issue](https://github.com/ton-utilisateur/glossary-pages/issues).
+Pull requests and issues welcome!
 
 ---
 

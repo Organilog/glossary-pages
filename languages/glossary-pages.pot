@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Glossary Pages\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2\n"
+
+msgid "Glossary"
+msgstr ""
+
+msgid "Term"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "Add New Term"
+msgstr ""
+
+msgid "Edit Term"
+msgstr ""
+
+msgid "View Term"
+msgstr ""
+
+msgid "New Term"
+msgstr ""
+
+msgid "Search Terms"
+msgstr ""
+
+msgid "No terms found"
+msgstr ""
+
+msgid "No terms found in Trash"
+msgstr ""
+
+msgid "Glossary Details"
+msgstr ""
+
+msgid "Synonyms"
+msgstr ""
+
+msgid "Example"
+msgstr ""
+
+msgid "Term Categories"
+msgstr ""
+
+msgid "Term Category"
+msgstr ""
+
+msgid "Search Categories"
+msgstr ""
+
+msgid "All Categories"
+msgstr ""
+
+msgid "Parent Category"
+msgstr ""
+
+msgid "Edit Category"
+msgstr ""
+
+msgid "Update Category"
+msgstr ""
+
+msgid "Add New Category"
+msgstr ""
+
+msgid "New Category Name"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Search the glossary..."
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "No categories found."
+msgstr ""
+
+msgid "Glossary: Terms starting with \"%s\""
+msgstr ""
+
+msgid "No terms found for this letter."
+msgstr ""
+
+msgid "Glossary Pages Help"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Glossary Pages - Help & Usage"
+msgstr ""
+
+msgid "Glossary Pages allows you to create and manage a glossary using custom post types."
+msgstr ""
+
+msgid "How to use"
+msgstr ""
+
+msgid "Create glossary terms via the \"Glossary\" menu in the admin."
+msgstr ""
+
+msgid "Add definition, synonyms and example for each term."
+msgstr ""
+
+msgid "Group terms by category if desired."
+msgstr ""
+
+msgid "Show all letters as links, even if there are no terms for some letters."
+msgstr ""
+
+msgid "Shortcodes"
+msgstr ""
+
+msgid "Displays only the alphabetical navigation bar (A-Z) for glossary terms. Use it anywhere to help users jump to terms starting with a specific letter."
+msgstr ""
+
+msgid "Displays the full list of glossary terms, grouped by starting letter."
+msgstr ""
+
+msgid "Available attributes:"
+msgstr ""
+
+msgid "Filter glossary terms by category slug (optional). Example: [wp_glossary_list category=\"seo\"]"
+msgstr ""
+
+msgid "Displays a menu with all glossary term categories. Each category links to its archive page."
+msgstr ""
+
+msgid "Show the number of terms in each category."
+msgstr ""
+
+msgid "You can combine the navigation, categories menu, and list shortcodes for a classic glossary experience:"
+msgstr ""
+
+msgid "Search form"
+msgstr ""
+
+msgid "Displays a search form for glossary terms."
+msgstr ""
+
+msgid "WPML/Polylang"
+msgstr ""
+
+msgid "The plugin is compatible with WPML and Polylang for multilingual glossaries."
+msgstr ""
+
+msgid "Support"
+msgstr ""

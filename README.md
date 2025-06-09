@@ -1,7 +1,7 @@
 # Glossary Pages – WordPress Plugin
 
 A customizable, multilingual-ready glossary plugin with A–Z navigation, category filters, and full-text search.
-
+Available on the directory https://wordpress.org/plugins/glossary-pages/
 
 ---
 
@@ -42,10 +42,10 @@ A customizable, multilingual-ready glossary plugin with A–Z navigation, catego
 
 ## 💡 Shortcodes
 
-- `[wp_glossary_pages_nav show_all="0|1"]` – A-Z navigation bar
-- `[wp_glossary_pages_list category="slug"]` – Glossary list by letter
-- `[wp_glossary_pages_categories show_count="1"]` – Category list
-- `[wp_glossary_pages_search]` – Glossary search field
+- `[glossary_pages_nav show_all="0|1"]` – A-Z navigation bar
+- `[glossary_pages_list category="slug"]` – Glossary list by letter
+- `[glossary_pages_categories show_count="1"]` – Category list
+- `[glossary_pages_search]` – Glossary search field
 
 ---
 

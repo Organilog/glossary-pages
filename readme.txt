@@ -1,10 +1,9 @@
 === Glossary Pages ===
-Contributors: Organilog
+Contributors: Organilog, funnycat
 Tags: glossary, lexicon, dictionary, definition, encyclopedia
-Requires at least: 5.8
+Requires at least: 3.0
 Tested up to: 6.8
 Stable tag: 1.2.0
-Requires PHP: 7.2
 Donate link: https://fr.organilog.com/
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -46,7 +45,7 @@ On the backend of your WordPress account, access
 
 == Installation ==
 
-1. Upload the `wp-glossary` folder to `/wp-content/plugins/`
+1. Upload the `glossary-pages` folder to `/wp-content/plugins/`
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. (First install: visit “Settings > Permalinks” and click “Save Changes” once)
 4. Start adding terms under the new “Glossary” menu
@@ -55,19 +54,19 @@ On the backend of your WordPress account, access
 == Frequently Asked Questions ==
 
 = How do I display the glossary navigation bar? =
-Use the shortcode `[wp_glossary_pages_nav]` anywhere in your content.
+Use the shortcode `[glossary_pages_nav]` anywhere in your content.
 
 = Can I display only letters that have terms? =
-Yes! By default, `[wp_glossary_pages_nav]` only links letters that have at least one term. Use `[wp_glossary_pages_nav show_all="1"]` to link all letters.
+Yes! By default, `[glossary_pages_nav]` only links letters that have at least one term. Use `[glossary_pages_nav show_all="1"]` to link all letters.
 
 = How do I display the list of terms? =
-Use the shortcode `[wp_glossary_pages_list]`. You can filter by category: `[wp_glossary_pages_list category="category_name"]` (replace "category_name" by any category of your choice).
+Use the shortcode `[glossary_pages_list]`. You can filter by category: `[glossary_pages_list category="category_name"]` (replace "category_name" by any category of your choice).
 
 = How do I show the categories menu? =
-Use the shortcode `[wp_glossary_pages_categories]`. You can display the count of terms in each category: `[wp_glossary_pages_categories show_count="1"]`.
+Use the shortcode `[glossary_pages_categories]`. You can display the count of terms in each category: `[glossary_pages_categories show_count="1"]`.
 
 = How do I enable search? =
-Use `[wp_glossary_pages_search]` anywhere to display a search field for glossary terms.
+Use `[glossary_pages_search]` anywhere to display a search field for glossary terms.
 
 = Does it support Gutenberg? =
 Not yet. Use shortcodes in your posts or pages.
@@ -81,25 +80,25 @@ Yes, all terms, categories and fields can be translated. The main CPT and taxono
 == Screenshots ==
 
 1. Example of the glossary A-Z navigation and list
-2. Edit screen for a glossary term (with synonyms and example)
-3. Glossary category menu
+2. Glossary menu to edit each term
+3. Glossary help page
 
 == Shortcodes ==
 
-- `[wp_glossary_pages_nav show_all="0|1"]`  
+- `[glossary_pages_nav show_all="0|1"]`  
   Displays the A-Z navigation bar.  
   - `show_all="1"`: show all letters as links, even if no terms for some letters.  
   - `show_all="0"`: only link letters with terms (default).
 
-- `[wp_glossary_pages_list category="slug"]`  
+- `[glossary_pages_list category="slug"]`  
   Displays the list of terms, grouped by letter.  
   - `category`: filter by category slug (optional).
 
-- `[wp_glossary_pages_categories show_count="1"]`  
+- `[glossary_pages_categories show_count="1"]`  
   Displays the categories menu.  
   - `show_count="1"`: show the number of terms in each category.
 
-- `[wp_glossary_pages_search]`  
+- `[glossary_pages_search]`  
   Displays a search field for glossary terms.
 
 == Changelog ==
@@ -111,8 +110,8 @@ Yes, all terms, categories and fields can be translated. The main CPT and taxono
 
 = 1.1.0 =
 * Dedicated page per letter (e.g. /glossary/a/)
-* [wp_glossary_pages_categories] shortcode for category menu
-* Shortcodes split ([wp_glossary_pages_nav], [wp_glossary_pages_list])
+* [glossary_pages_categories] shortcode for category menu
+* Shortcodes split ([glossary_pages_nav], [glossary_pages_list])
 * Improved activation rewrite logic
 
 = 1.0.0 =

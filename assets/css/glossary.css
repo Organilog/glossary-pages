@@ -1,11 +1,11 @@
-.wp-glossary-az-nav { margin-bottom: 1em; }
-.wp-glossary-az-nav a { margin: 0 2px; font-weight: bold; }
-.wp-glossary-list ul { list-style: none; margin: 0 0 1em 0; padding: 0; }
-.wp-glossary-list li { margin: 0.25em 0; }
+.glossary-az-nav { margin-bottom: 1em; }
+.glossary-az-nav a { margin: 0 2px; font-weight: bold; }
+.glossary-list ul { list-style: none; margin: 0 0 1em 0; padding: 0; }
+.glossary-list li { margin: 0.25em 0; }
 
-.wp-glossary-single-fields { background: #f7f7f7; padding: 16px; border-radius: 8px; margin-bottom: 1em; }
-.wp-glossary-single-fields p { margin: 0.4em 0; }
-.wp-glossary-category-menu {
+.glossary-single-fields { background: #f7f7f7; padding: 16px; border-radius: 8px; margin-bottom: 1em; }
+.glossary-single-fields p { margin: 0.4em 0; }
+.glossary-category-menu {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -13,10 +13,10 @@
     margin: 1em 0;
     padding: 0;
 }
-.wp-glossary-category-menu li {
+.glossary-category-menu li {
     margin: 0;
 }
-.wp-glossary-category-menu a {
+.glossary-category-menu a {
     background: #f3f4f6;
     padding: 6px 14px;
     border-radius: 16px;
@@ -25,6 +25,6 @@
     font-weight: 500;
     transition: background 0.2s;
 }
-.wp-glossary-category-menu a:hover {
+.glossary-category-menu a:hover {
     background: #e0e7ef;
 }
